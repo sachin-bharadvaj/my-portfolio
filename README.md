@@ -4,3 +4,5 @@ A Captivative portfolio website.
 ```bash
 git clone https://github.com/sachin-bharadvaj/my-portfolio.git
 ```
+![My Portfolio Screenshot](https://github.com/sachin-bharadvaj/my-portfolio.git/screenst.png)
+
