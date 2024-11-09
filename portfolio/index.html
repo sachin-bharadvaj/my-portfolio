@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <div class="container">
+            <h1><span  style="color: rgb(39, 144, 201);">Portfolio </span><span id="typed-portfolio" class="typed-text"></span></h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="https://docs.google.com/document/d/1VS-6Fp65xdFGxCCPaSnL5snwo_dk97sp/edit?usp=sharing&ouid=117458259871850370689&rtpof=true&sd=true" download class="download-btn">Resume<i class="fas fa-download"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <div class="welcome-message">
+                <h2>I'm Vuduthala Sachin Bharadvaj</h2> 
+                <p>Aspiring Software Developer | Tech Enthusiast</p>
+                <div class="social-icons">
+                    <a href="https://github.com/sachin-bharadvaj" target="_blank"><i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sachin-bharadvaj-b4b2a9258" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://x.com/SachinB01956800?t=iWORgExopG6-aT9AuvofLw&s=08" target="_blank"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+            <div class="home-image">
+                <img src="profpic.jpg" alt="VSB">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <hr>
+        <p>Passionate about continuous learning and professional growth, I’m an aspiring Software Developer with strong technical and interpersonal skills.</p>
+
+        <!-- Career Aspiration, Strengths, etc. -->
+        <div class="cards-container">
+            <div class="card">
+                <h3>Career Aspiration</h3>
+                <p>Aspired to join a forward-thinking organization and contribute to impactful projects with a talented team.</p>
+            </div>
+            <div class="card">
+                <h3>Strengths</h3>
+                <p>Curiosity: Always keen to learn.<br>Creativity: Generate new ideas and solutions.</p>
+            </div>
+            <div class="card">
+                <h3>Extra-Curricular Activities</h3>
+                <p>Organized events at college including Freshers & Farewell, and was part of the Student Association Committee.</p>
+            </div>
+            <div class="card">
+                <h3>Personal Profile</h3>
+                <p>Name: Vuduthala Sachin Bharadvaj<br>Gender: Male<br>Marital Status: Unmarried<br>Address: Karimnagar</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Employee Payroll Management</h3>
+            <p><strong>Technology:</strong> Python, Full Stack</p>
+            <p><strong>Description:</strong> A system to streamline salary and employee management, ensuring accurate payroll processing.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-card">
+            <h2>Contact Me</h2>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="foot">
+        <marquee behavior="scroll" direction="right" class="marq" loop="5"><p>sachin_bharadvaj &copy; 2024 All rights reserved.</p></marquee>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
